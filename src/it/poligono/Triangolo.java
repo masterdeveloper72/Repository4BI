@@ -6,7 +6,11 @@ public class Triangolo {
 	
 	public Triangolo() {	
 	}
-
+	
+	public float areaTriangolo() {
+		return base*altezza;
+	}
+	
 	public float getBase() {
 		return base;
 	}
